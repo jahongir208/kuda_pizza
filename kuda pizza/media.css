@@ -1,0 +1,6 @@
+@media (max-width:1550px){
+    .product1{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+} 

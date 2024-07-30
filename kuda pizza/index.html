@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./image/Group 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./media.css">
+</head>
+
+<body>
+    <!-- <div class="loader-body"> <span class="loader">Loading</span></div> -->
+    <div class="site">
+        <div class="allert"></div>
+        <header>
+            <nav class="container">
+                <div class="nav-top">
+                    <p><i class="fa-solid fa-location-dot"></i> <select id="select">
+
+                            <ul class="option">
+                                <li>
+                                    <option value="option">Москва</option>
+                                </li>
+                                <li>
+                                    <option>Тверь</option>
+                                </li>
+                                <li>
+                                    <option>Курск</option>
+                                </li>
+                            </ul>
+                        </select>
+                    </p>
+                    <p>Проверить адрес</p>
+                    <p>Среднее время доставки*:
+                        <!-- <span class="timer">00:30:00</span> -->
+
+                        <span class="clock">00</span>:
+                        <span class="minut">--</span>:
+                        <span class="second">--</span>
+
+
+                    </p>
+
+                </div>
+                <div class="nav-time">
+                    <p>Время работы: с 11:00 до 23:00</p>
+                    <a href="#" class="user"><i class="fa-regular fa-user"></i>Войти в аккаунт</a>
+                    <a href="#" class="my"><i class="fa-regular fa-user"></i>Мой аккаунт</a>
+                    <div class="my-acco">
+                        <a href="">100 бонусов</a>
+                        <a href="">История заказов</a>
+                        <a href="">Настройки</a>
+                        <a href="">Выход из аккаунта</a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- line -->
+            <div class="line"></div>
+            <div class="navbar container">
+                <div class="logo">
+                    <img src="./image/Group 2.png" alt="">
+                    <h3>Куда пицца</h3>
+                </div>
+
+                <ul class="items">
+                    <li class="link-item"><a href="">Акции</a></li>
+                    <li class="link-item"><a href="">Пицца</a></li>
+                    <li class="link-item"><a href="">Суши</a></li>
+                    <li class="link-item"><a href="">Напитки</a></li>
+                    <li class="link-item"><a href="">Закуски</a></li>
+                    <li class="link-item"><a href="">Комбо</a></li>
+                    <li class="link-item"><a href="">Десерты</a></li>
+                    <li class="link-item"><a href="">Соусы</a></li>
+                    <li class="link-item-drug">Другое <i class="fa-solid fa-angle-down"></i>
+                        <ul class="drugoe">
+                            <li><a href="">Акции</a></li>
+                            <li><a href="">О компании</a></li>
+                            <li><a href="">Пользовательское соглашение</a></li>
+                            <li><a href="">Условия гарантии</a></li>
+                            <li><a href="">Ресторан</a></li>
+                            <li><a href="">Контакты</a></li>
+                            <li><a href="">Поддержка</a></li>
+                            <li><a href="">Отследить заказ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <div class="logotip">
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i><span class="span-text-box"> 0 </span><i
+                            class="fa-solid fa-ruble-sign"></i> </a>
+                </div>
+                <button class="bars">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </button>
+                <div class="menu">
+                    <a href="#" class="user"><i class="fa-regular fa-user"></i>Войти в аккаунт</a>
+                    <a href="#" class="my"><i class="fa-regular fa-user"></i>Мой аккаунт</a>
+                    <div class="my-acco">
+                        <a href="">100 бонусов</a>
+                        <a href="">История заказов</a>
+                        <a href="">Настройки</a>
+                        <a href="">Выход из аккаунта</a>
+                    </div>
+                    <ul class="menu-box">
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                        <li><a href="#">Условия гарантии</a></li>
+                        <li><a href="#">Ресторан</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Поддержка</a></li>
+                        <li><a href="#">Отследить заказ</a></li>
+                    </ul>
+                    <div class="menu-info">
+                        <p><i class="fa-solid fa-phone"></i>+7 (926) 223-10-11</p>
+                        <p><i class="fa-solid fa-location-dot"></i>Москва, ул. Юных Ленинцев, д.99</p>
+                        <p><i class="fa-brands fa-facebook"></i>Facebok <i class="fa-brands fa-instagram"></i> Instagram
+                        </p>
+                    </div>
+
+                    <span>Время работы: с 11:00 до 23:00</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero container">
+            <div class="hero-menu">
+                <div class="active">
+                    <img src="./image/Fire.png" alt="">
+                    <a href="#">Акции</a>
+                </div>
+                <div>
+                    <img src="./image/Pizza.png" alt="">
+                    <a href="#Пицца">Пицца</a>
+                </div>
+                <div>
+                    <img src="./image/Sushi.png" alt="">
+                    <a href="">Суши</a>
+                </div>
+                <div>
+                    <img src="./image/Drink.png" alt="">
+                    <a href="">Напитки</a>
+                </div>
+                <div>
+                    <img src="./image/Snacks.png" alt="">
+                    <a href="">Закуски</a>
+                </div>
+                <div>
+                    <img src="./image/Combo.png" alt="">
+                    <a href="">Комбо</a>
+                </div>
+                <div>
+                    <img src="./image/Group 104.png" alt="">
+                    <a href="">Десерты</a>
+                </div>
+                <div>
+                    <img src="./image/Sauce.png" alt="">
+                    <a href="">Соусы</a>
+                </div>
+            </div>
+            <div class="pic-menu">
+                <div class="pic-box">
+                    <img src="./image/Group 737.png" alt="">
+                    <p>3 средние пиццы <br>
+                        от 999 рублей</p>
+                </div>
+                <div class="pic-box">
+                    <img src="./image/Group 738.png" alt="">
+                    <p>Кэшбек 10% на <br>
+                        самовывоз (доставка)</p>
+                </div>
+
+                <div class="pic-box">
+                    <img src="./image/Group 737.png" alt="">
+                    <p>3 средние пиццы <br>
+                        от 999 рублей</p>
+                </div>
+                <div class="pic-box">
+                    <img src="./image/Group 738.png" alt="">
+                    <p>Кэшбек 10% на <br>
+                        самовывоз (доставка)</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h1 class="pizza-text">Пицца</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4.png" alt="">
+                        <div class="products-item_text">
+                            <h2>Чикен Сладкий Чили</h2>
+                            <p>Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...</p>
+                            <div class="btn_group" data-price="399">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 399 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (8).png" alt="">
+                        <div class="products-item_text">
+                            <h2>EASY PEASY огуречный расколбас</h2>
+                            <p>Курица, Лук, Перец Халапеньо...</p>
+                            <div class="btn_group" data-price="549">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 549 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (9).png" alt="">
+                        <div class="products-item_text">
+                            <h2>EASY PEASY чикен а-ля хрен</h2>
+                            <p class="brain">Курица, Лук, Соус Карбонара,...</p>
+                            <div class="btn_group" data-price="249">
+                                <button class="margin-top">Выбрать</button>
+                                <h3 style="color: #FF7010;" class="text-import">от 249 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (10).png" alt="">
+                        <div class="products-item_text">
+                            <h2>4 сезона</h2>
+                            <p>Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...</p>
+                            <div class="btn_group" data-price="630">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 630 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (11).png" alt="">
+                        <div class="products-item_text">
+                            <h2>4 сезона</h2>
+                            <p>Бекон, Ветчина, Грибы, Курица, Лук, Маслины, Огурцы мари...</p>
+                            <div class="btn_group" data-price="630">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 630 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (12).png" alt="">
+                        <div class="products-item_text">
+                            <h2>EASY PEASY чикен а-ля хрен</h2>
+                            <p class="brain">Курица, Лук, Соус Карбонара,...</p>
+                            <div class="btn_group" data-price="249">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 249 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (13).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Чикен Сладкий Чили</h2>
+                            <p>Курица, Лук, Перец Халапеньо, Сыр Моцарелла, Томатный соу...</p>
+                            <div class="btn_group" data-price="399">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 399 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (14).png" alt="">
+                        <div class="products-item_text">
+                            <h2>EASY PEASY огуречный расколбас</h2>
+                            <p>Курица, Лук, Перец Халапеньо...</p>
+                            <div class="btn_group" data-price="549">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 549 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="products padding">
+            <div class="container">
+                <h1 class="food-mental">Суши</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (2).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (15).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (16).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (17).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (18).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (19).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (20).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (21).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h1 class="pizza-text-two">Закуски</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (3).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (22).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (23).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (24).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (24).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (25).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (26).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (27).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h1 class="desert">Десерты</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (4).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (28).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (29).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (30).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (31).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (32).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (33).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (34).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h1 class="new-pizza">Напитки</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (35).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (36).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (37).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (38).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (39).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <!-- <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p> -->
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (40).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;"> 525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (41).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (42).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h1 class="new-pizza-item">Соусы</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (43).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (44).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (6).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (48).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (47).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+
+                            <div class="btn_group">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (46).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (6).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (43).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h1>Комбо</h1>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (7).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (54).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (57).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (56).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 399 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1">
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (53).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия крем-брюле</h2>
+                            <p>Сливочный сыр, семга татаки с тростниковым сахаром, соус у...</p>
+                            <div class="btn_group" data-price="395">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 395 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (54).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Филадельфия кранч</h2>
+                            <p>Семга, рис, сыр креметто, соус унаги, креветка, авокадо, чип...</p>
+                            <div class="btn_group" data-price="475">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 475 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (55).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Тигр мама</h2>
+                            <p>Тигровая креветка, огурец, авокадо, соус Айоли, рис, ик...</p>
+                            <div class="btn_group" data-price="525">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 525 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-item">
+                        <img src="./image/Rectangle 4 (57).png" alt="">
+                        <div class="products-item_text">
+                            <h2>Супер Филадельфия</h2>
+                            <p>Действительно много семги, сливочный сыр, огурец, рис, н...</p>
+                            <div class="btn_group" data-price="425">
+                                <button>Выбрать</button>
+                                <h3 style="color: #FF7010;">от 425 ₽</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="footer_top">
+            <div class="container">
+                 <div class="top-map">
+                    <h1>Доставка пиццы в Москве</h1>
+                    <p>Захотелось чего-то вкусного и сытного? Желание простое и понятное, только в холодильнике все не
+                        то, и до магазина идти лень. Все пропало? Нет. Недорого заказать пиццу в Москве очень просто!
+                        Вам на помощь спешит супергерой – Domino’s Pizza! Как у всякого супергероя, у Domino’s Pizza
+                        есть свои суперсилы: восхитительный вкус продукции из отборных ингредиентов; широкий
+                        ассортимент, включающий легендарные, фирменные и классические виды, для вегетарианцев и
+                        любителей экспериментировать; быстрая и бесплатная доставка пиццы в течение 30 минут, чтобы
+                        вкусное и ароматное блюдо не успевало остыть.
+                        <br>
+                        <br>
+                        <span style="color: #767676; padding: 0px 0px 20px;">
+                            Как сделать заказ
+                        </span>
+                        <br>
+                    <div class="linear">
+                        
+                    </div>
+                    <span style="color: #c1c1c1; "> Доставка пиццы от Domino’s – это когда Вам не нужно никуда ехать
+                        или звонить, ведь есть Интернет. Никогда еще заказ пиццы на дом в Москве не был таким
+                        простым! Чтобы заказать пиццу онлайн, Вам необходимо: выбрать понравившийся вариант и
+                        количество порций; положить желаемое в «Корзину»; не уходить далеко, так как вкусная пицца
+                        на заказ с доставкой уже мчится к Вам из ближайшей пиццерии Domino’s. И не забудьте оплатить
+                        заказ курьеру!</span>
+                    </p>
+
+                    <p class="link" style="color: #FF7010;"> Показать полностью</p>
+                 </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="display-flex">
+                    <div class="logo_info">
+                        <div class="logo">
+                            <img src="./image/Group 2.png" alt="">
+                            <h3>Куда пицца</h3>
+                        </div>
+    
+                        <p>© Copyright 2021 — Куда Пицца</p>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <p style="color: #191919;">Куда пицца</p>
+                            <li>О компании</li>
+                            <li>Пользовательское соглашение</li>
+                            <li>Условия гарантии</li>
+                        </ul>
+    
+                        <ul>
+                            <p style="color: #191919;">Помощь</p>
+                            <li>Ресторан</li>
+                            <li>Контакты</li>
+                            <li>Поддержка</li>
+                            <li>Отследить заказ</li>
+                        </ul>
+                        <ul>
+                            <p style="color: #191919;">Контакты</p>
+                            <li><i class="fa-solid fa-phone" style="color: #ff7010;"></i> +7 (926) 223-10-11 </li>
+                            <li><i class="fa-solid fa-location-dot" style="color: #ff7010;"></i> Москва, ул. Юных Ленинцев,
+                                д.99</li>
+                            <div class="links">
+                                <li><i class="fa-brands fa-facebook-f" style="color: #ff7010;"></i> Facebok</li>
+                                <li><i class="fa-brands fa-instagram" style="color: #ff7010;"></i> Instagram</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="about">
+
+        <div>
+            <i class="fa-solid fa-xmark"></i>
+            <h2>Вход в аккаунт</h2>
+            <h4>Сможете быстро оформлять заказы, <br>
+                использовать бонусы</h4>
+            <span>Номер телефона</span>
+            <input type="tell" value="" id="tell">
+            <a href="#" class="selkod">Войти</a>
+            <p>Продолжая, вы соглашаетесь со сбором и <br> обработкой персональных данных и <br> пользовательским
+                соглашением</p>
+        </div>
+    </div>
+    <div class="kod">
+
+        <div>
+            <i class="fa-solid fa-xmark"></i>
+            <h2>Код из смс</h2>
+            <p>На номер +7 (926) 223-10-11</p>
+
+            <input type="password" id="cc-word">
+
+            <a href="#" class="vhod">Войти</a>
+            <p>Отправить код ещё раз через:
+                <span>59 </span> секунд
+            </p>
+            <button class="qayta">Отправить</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
